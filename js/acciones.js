@@ -1,7 +1,7 @@
 //JavaScript Document
 
 $(document).ready(function(e){
-	document.addEventListener("deviceready", onDeviceReady,false);
+	document.addEventListener ("deviceready",onDeviceReady,false);
 	
 });
 
@@ -27,7 +27,7 @@ $(document).ready(function(e){
 		};
 		
 		function onError(error){
-			alert('code:'   +error.code   +'\n'+'message:'+error.message +'\n');
+			alert('code:'   + error.code   +'\n'+'message:'+error.message +'\n');
 		}
 	}
 		
